@@ -1,0 +1,77 @@
+.tong{
+    max-width: 1450px;
+    margin: 0 20px;
+    align: center;
+}
+
+.menu{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: green;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0px 50px;
+    font-size: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: bisque;
+}
+
+
+
+.logo{
+    width: 140px;
+}
+
+.ndung{
+    display: flex;
+    background-color: rgb(227, 227, 115);
+    margin: 10px;
+}
+
+.cardgrid{
+    display: grid;
+    padding: 20px 20px;
+}
+
+.card1{
+    display: flex;
+    
+}
+
+.card2{
+    display: flex;
+    margin: 20px;
+}
+
+.titmain{
+    padding-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+.cardtit{
+    color: blue;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
